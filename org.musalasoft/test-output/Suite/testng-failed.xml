@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="tasks_musalasoft.org.musalasoft.TestCase4">
+        <methods>
+          <include name="TC_04"/>
+        </methods>
+      </class> <!-- tasks_musalasoft.org.musalasoft.TestCase4 -->
+      <class name="tasks_musalasoft.org.musalasoft.TestCase1">
+        <methods>
+          <include name="TC_01"/>
+        </methods>
+      </class> <!-- tasks_musalasoft.org.musalasoft.TestCase1 -->
+      <class name="tasks_musalasoft.org.musalasoft.TestCase3">
+        <methods>
+          <include name="TC_03"/>
+        </methods>
+      </class> <!-- tasks_musalasoft.org.musalasoft.TestCase3 -->
+      <class name="tasks_musalasoft.org.musalasoft.TestCase2">
+        <methods>
+          <include name="TC_02"/>
+        </methods>
+      </class> <!-- tasks_musalasoft.org.musalasoft.TestCase2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
